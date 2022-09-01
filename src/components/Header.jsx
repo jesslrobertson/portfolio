@@ -13,7 +13,7 @@ export default function Header(props){
         theme={theme}
         setTheme={setTheme}
       />
-      <div className={`header-border ${theme}-accent`} />
+      <div className={`bottom-border ${theme}-accent`} />
     </header>
   )
 }
