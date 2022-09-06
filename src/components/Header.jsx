@@ -1,19 +1,14 @@
 import React from 'react'
-import Toggle from './Toggle'
+import Description from '../components/Description'
 
 export default function Header(props){
 
-  const { theme, setTheme } = props
+  const { theme, introRef } = props
   return (
-    <header >
-      <h1
-        className={`title ${theme}-text`}
-      >Jess Robertson</h1>
-      <Toggle 
-        theme={theme}
-        setTheme={setTheme}
-      />
-      <div className={`bottom-border ${theme}-accent`} />
-    </header>
+    <div className='header section' ref={introRef}>
+      <Description 
+          theme={theme}
+        />
+    </div >
   )
 }

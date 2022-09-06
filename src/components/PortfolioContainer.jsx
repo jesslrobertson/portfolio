@@ -3,15 +3,15 @@ import PortfolioPiece from './PortfolioPiece'
 import PortfolioContent from '../assets/PortfolioContent'
 
 export default function PortfolioContainer(props){
-  const { theme } = props
+  const { theme, projectsRef } = props
 
   return (
-    <div className={`portfolio-box ${theme}-collection`} >
-      <div className={`top-border ${theme}-accent`} />
+    <div className={`portfolio-box ${theme}-collection section`} ref={projectsRef}>
       <h2 className={`${theme}-text subtitle`}>
         Projects
       </h2>
-      <div className={`${theme}-collection slide-display ${theme}er-el-bg element`}>
+      <div className={`border ${theme}-accent`} />
+      <div className={`${theme}-collection collection element`}>
         {PortfolioContent.map((project) => {
           const {projectTitle, description, projectImg, githubLink, address } = project
           return (

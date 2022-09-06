@@ -5,11 +5,11 @@ export default function PortfolioPiece(props){
 
   function handleClick(address){
     console.log(address)
-    window.open(`https://${address}`, "_blank")
+    window.open(`https://${address}`)
   }
 
   return (
-    <div className={`project-box ${theme}-el-bg`}>
+    <div className={`project-box ${theme}-el-bg`} name="portfolio" id="portfolio">
       <div className={`project-items`}>
         <img className={`project-img ${theme}-box-shadow`} src={projectImg} />
         <div className={`project-description-box`}>
@@ -19,9 +19,10 @@ export default function PortfolioPiece(props){
           <p className={`project-description ${theme}-text element-body`}>
             {description}
           </p>
-          <a className={`${theme}-text link`}>{githubLink}</a>
+          <a className={`${theme}-text`}>{githubLink}</a>
         <button 
-          className={`${theme}-button link-button ${theme}-contrast`}
+          className={`${theme}-accent link-button ${theme}-contrast ${theme}-box-shadow
+          `}
           onClick={() => handleClick(address)}
           >
           Experience {projectTitle}
