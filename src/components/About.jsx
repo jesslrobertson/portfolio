@@ -9,7 +9,7 @@ export default function About(props){
       </h2>
       <div className={`border ${theme}-accent`} />
       <div className={`info-box ${theme}-text element-title`}>
-        <img src="src/assets/jessR.jpeg" className="profile-pic" />
+        <img src="public/assets/jessR.jpeg" className="profile-pic" />
         <p className={`${theme}-text element-body sibling-text`}>My name is Jess, and I love building beautiful, intuitive things for the web. <br/>Before becoming a developer, I worked in a wide array of fields that helped me develop communication, design, leadership, and problem solving skills. Now, I'm passionate about building tech that is accessible, intuitive, and works well for everyone.</p>
       </div>
       <div className={`border ${theme}-accent`} />
