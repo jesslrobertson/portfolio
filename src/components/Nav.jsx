@@ -5,7 +5,7 @@ export default function Nav(props) {
   const { theme, setTheme, introRef, aboutRef, projectsRef, contactRef } = props
 
   function handleScroll(elementRef){
-    elementRef.scrollIntoView()
+    elementRef.scrollIntoView({behavior: "smooth"})
   }
   
   return (
