@@ -1,16 +1,22 @@
-import React from 'react'
+import React from "react";
 
-export default function About(props){
+export default function About(props) {
   const { theme, aboutRef } = props;
-  return ( 
+  return (
     <div className={`about-box section`} ref={aboutRef}>
-      <h2 className={`${theme}-text subtitle`}>
-        About Me
-      </h2>
+      <h2 className={`${theme}-text subtitle`}>About Me</h2>
       <div className={`border ${theme}-accent`} />
       <div className={`info-box ${theme}-text element-title`}>
         <img src="src/assets/jessR.png" className="profile-pic" />
-        <p className={`${theme}-text element-body sibling-text`}>My name is Jess, and I love building beautiful, intuitive things for the web. <br/>Before becoming a developer, I worked in a wide array of fields that helped me develop communication, design, leadership, and problem solving skills. Now, I'm passionate about building tech that is accessible, intuitive, and works well for everyone.</p>
+        <p className={`${theme}-text element-body sibling-text`}>
+          My name is Jess, and I love building beautiful, intuitive things for
+          the web. <br />
+          Before becoming a developer, I worked in a wide array of fields that
+          helped me develop communication, design, leadership, and problem
+          solving skills. Now, I'm passionate about building tech that is
+          accessible, intuitive, and works well for all the people using the web
+          today.
+        </p>
       </div>
       <div className={`border ${theme}-accent`} />
       <h3 className={`${theme}-text`}>Technologies I'm working with:</h3>
@@ -34,7 +40,6 @@ export default function About(props){
         <li>Problem Solving</li>
         <li>Critical Thinking</li>
       </ul>
-
     </div>
-  )
+  );
 }

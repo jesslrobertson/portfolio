@@ -1,14 +1,11 @@
-import React from 'react'
-import Description from '../components/Description'
+import React from "react";
+import Description from "../components/Description";
 
-export default function Header(props){
-
-  const { theme, introRef } = props
+export default function Header(props) {
+  const { theme, introRef } = props;
   return (
-    <div className='header section' ref={introRef}>
-      <Description 
-          theme={theme}
-        />
-    </div >
-  )
+    <div className="header section" ref={introRef}>
+      <Description theme={theme} />
+    </div>
+  );
 }
