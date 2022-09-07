@@ -217,7 +217,11 @@ nav {
 .accent-text {
   font-family: "Bitter", serif;
   font-size: 0.9rem;
-  font-size: clamp(0.9rem, 0.6297297297297297rem + 1.351351351351351vw, 1.4rem);
+  font-size: clamp(
+    0.9rem,
+    0.6567567567567567rem + 1.2162162162162165vw,
+    1.35rem
+  );
 }
 
 .credit {
@@ -239,8 +243,8 @@ nav {
 
 button {
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-  font-size: clamp(1rem, 0.8378378378378378rem + 0.8108108108108111vw, 1.3rem);
+  font-size: 0.85rem;
+  font-size: clamp(0.85rem, 0.7148648648648648rem + 0.675675675675676vw, 1.1rem);
   font-weight: 500;
   border: none;
   border-radius: 5px;
@@ -257,8 +261,8 @@ a {
   font-size: 0.9rem;
   font-size: clamp(
     0.9rem,
-    0.5756756756756757rem + 1.6216216216216217vw,
-    1.5rem
+    0.6567567567567567rem + 1.2162162162162165vw,
+    1.35rem
   );
 }
 
