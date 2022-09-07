@@ -1,6 +1,6 @@
 import React from 'react'
 import PortfolioPiece from './PortfolioPiece'
-import PortfolioContent from '../../public/assets/PortfolioContent'
+import { PortfolioContent } from '../../public/assets/PortfolioContent'
 
 export default function PortfolioContainer(props){
   const { theme, projectsRef } = props
