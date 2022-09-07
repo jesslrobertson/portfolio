@@ -138,8 +138,13 @@
   min-height: 100vh;
 }
 
-.header {
-  justify-content: center;
+.description-link-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: clamp(18rem, 3.9459459459459456rem + 70.27027027027027vw, 44rem);
+  padding-top: 1rem;
 }
 
 .nav-box {

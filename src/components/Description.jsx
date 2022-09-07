@@ -16,7 +16,7 @@ export default function Description(props) {
         solving and building exceptional user experiences.
       </p>
       <div className={`border ${theme}-accent border-bottom`} />
-      <div className={`link-box`}>
+      <div className={`description-link-box`}>
         <a
           className={`${theme}-icon fa-brands fa-github icon`}
           href="https://github.com/jesslrobertson"
