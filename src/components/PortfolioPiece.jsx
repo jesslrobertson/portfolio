@@ -21,7 +21,7 @@ export default function PortfolioPiece(props) {
           <h3 className={`project-title ${theme}-text ${theme}-text-shadow`}>
             {projectTitle.toUpperCase()}
           </h3>
-          <p className={`project-description ${theme}-text element-body`}>
+          <p className={`project-description ${theme}-text element-body ${theme}-body`}>
             {description}
           </p>
           <a className={`${theme}-text`}>{githubLink}</a>

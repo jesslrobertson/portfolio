@@ -11,7 +11,7 @@ export default function Description(props) {
       <h3 className={`element-title ${theme}-text`}>
         Full stack software developer
       </h3>
-      <p className={`element-body ${theme}-text`}>
+      <p className={`element-body ${theme}-text ${theme}-body`}>
         I'm a software developer with a diverse background. I love problem
         solving and building exceptional user experiences.
       </p>

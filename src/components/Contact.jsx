@@ -9,7 +9,7 @@ export default function Contact(props){
         Contact
       </h2>
       <div className={`border ${theme}-accent`} />
-      <p className={`${theme}-text element-body`}>
+      <p className={`${theme}-text element-body ${theme}-body`}>
         I'm currently looking for front end or full-stack development roles. I'm most excited about opportunites that will allow me to put my art and design background to good use by facilitating collaboration between the design and development teams. 
       </p>
       <a href="mailto: jesslaurenrobertson@gmail.com">

@@ -8,7 +8,7 @@ export default function About(props) {
       <div className={`border ${theme}-accent`} />
       <div className={`info-box ${theme}-text element-title`}>
         <img src="https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/jessR.png" className="profile-pic" />
-        <p className={`${theme}-text element-body sibling-text`}>
+        <p className={`${theme}-text element-body sibling-text ${theme}-body`}>
           My name is Jess, and I love building beautiful, intuitive things for
           the web. <br />
           Before becoming a developer, I worked in a wide array of fields that

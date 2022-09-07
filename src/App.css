@@ -116,6 +116,7 @@
   box-shadow: 0px 0px 4px 1px rgba(46, 73, 95, 0.25);
 }
 
+
 /* Header styles */
 
 .intro,
@@ -205,7 +206,6 @@ nav {
 
 .element-body {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
   font-size: 1rem;
   font-size: clamp(1rem, 0.8648648648648649rem + 0.6756756756756757vw, 1.25rem);
 }
@@ -227,6 +227,14 @@ nav {
 .credit {
   font-family: "Bitter", serif;
   font-weight: 400;
+}
+
+.light-body {
+  font-weight: 400;
+}
+
+.dark-body {
+  font-weight: 300;
 }
 
 /* Accent styles */
