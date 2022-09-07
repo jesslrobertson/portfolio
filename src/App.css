@@ -142,7 +142,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: clamp(18rem, 3.9459459459459456rem + 70.27027027027027vw, 44rem);
   padding-top: 1rem;
 }
