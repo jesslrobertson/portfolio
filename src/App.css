@@ -142,7 +142,6 @@
   justify-content: center;
 }
 
-
 .nav-box {
   display: flex;
   align-items: center;
@@ -256,9 +255,12 @@ a {
   text-decoration: none;
   cursor: pointer;
   font-size: 0.9rem;
-  font-size: clamp(0.9rem, 0.5756756756756757rem + 1.6216216216216217vw, 1.5rem);
+  font-size: clamp(
+    0.9rem,
+    0.5756756756756757rem + 1.6216216216216217vw,
+    1.5rem
+  );
 }
-
 
 /* div.border {
   align-self: left;
@@ -469,7 +471,11 @@ footer {
   }
   60% {
     left: 2px;
-    width: clamp(1.6875rem, 1.383445945945946rem + 1.5202702702702704vw, 2.25rem);
+    width: clamp(
+      1.6875rem,
+      1.383445945945946rem + 1.5202702702702704vw,
+      2.25rem
+    );
   }
   100% {
     left: clamp(1.75rem, 1.614864864864865rem + 0.6756756756756757vw, 2rem);
@@ -478,35 +484,46 @@ footer {
 }
 @keyframes reverse {
   0% {
-    left: clamp(1.6875rem, 1.383445945945946rem + 1.5202702702702704vw, 2.25rem);
-    width: clamp(1.125rem, 0.9222972972972973rem + 1.0135135135135136vw, 1.5rem);
+    left: clamp(
+      1.6875rem,
+      1.383445945945946rem + 1.5202702702702704vw,
+      2.25rem
+    );
+    width: clamp(
+      1.125rem,
+      0.9222972972972973rem + 1.0135135135135136vw,
+      1.5rem
+    );
   }
   60% {
     left: clamp(1.125rem, 0.9222972972972973rem + 1.0135135135135136vw, 1.5rem);
-    width: clamp(1.6875rem, 1.383445945945946rem + 1.5202702702702704vw, 2.25rem);
+    width: clamp(
+      1.6875rem,
+      1.383445945945946rem + 1.5202702702702704vw,
+      2.25rem
+    );
   }
   100% {
     left: 2px;
   }
 }
 
-
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
   .info-box {
     flex-direction: column;
   }
-  
+
   .border {
     width: 100%;
   }
-  
+
   .link-box {
     flex-wrap: wrap;
   }
   li {
     width: calc(100% / 2);
   }
-  
+
   .section {
     margin-bottom: 7rem;
     padding-top: 4rem;
@@ -521,11 +538,10 @@ footer {
     width: 80vw;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .section {
     margin-bottom: 5rem;
     padding-top: 2rem;
     width: 95vw;
   }
 }
-
