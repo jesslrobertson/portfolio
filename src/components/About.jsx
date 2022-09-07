@@ -1,4 +1,5 @@
 import React from "react";
+import jessR from '../assets/jessR.png'
 
 export default function About(props) {
   const { theme, aboutRef } = props;
@@ -7,7 +8,7 @@ export default function About(props) {
       <h2 className={`${theme}-text subtitle`}>About Me</h2>
       <div className={`border ${theme}-accent`} />
       <div className={`info-box ${theme}-text element-title`}>
-        <img src="src/assets/jessR.png" className="profile-pic" />
+        <img src={jessR} className="profile-pic" />
         <p className={`${theme}-text element-body sibling-text`}>
           My name is Jess, and I love building beautiful, intuitive things for
           the web. <br />
