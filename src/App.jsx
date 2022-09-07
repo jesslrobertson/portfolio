@@ -1,11 +1,13 @@
 import React, { useState, useRef } from "react";
 import "./App.css";
-import Header from "./components/Header";
+// import Header from "./components/Header";
+import Description from "./components/Description"
 import About from "./components/About";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 function App() {
   const introRef = useRef(null);
   const aboutRef = useRef(null);
@@ -35,9 +37,7 @@ function App() {
         projectsRef={projectsRef}
         contactRef={contactRef}
       />
-      <div className="intro">
-        <Header theme={theme} setTheme={setTheme} introRef={introRef} />
-      </div>
+      <Description theme={theme} introRef={introRef} />
       <About theme={theme} aboutRef={aboutRef} />
       <PortfolioContainer theme={theme} projectsRef={projectsRef} />
       <Contact theme={theme} contactRef={contactRef} />

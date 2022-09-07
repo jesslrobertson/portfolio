@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function Description(props) {
-  const { theme } = props;
+  const { theme, introRef } = props;
 
   return (
-    <div className={`description-box element`}>
+    <div className={`description-box element section`} ref={introRef}>
       <h4 className={`${theme}-accent-text accent-text`}>Hi, I'm</h4>
       <h1 className={`title ${theme}-text`}>Jess Robertson</h1>
       <div className={`border ${theme}-accent`} />
