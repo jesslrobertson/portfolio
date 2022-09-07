@@ -205,7 +205,7 @@ nav {
 
 .element-body {
   font-family: "Raleway", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1rem;
   font-size: clamp(1rem, 0.8648648648648649rem + 0.6756756756756757vw, 1.25rem);
 }
