@@ -10,7 +10,7 @@ export default function PortfolioContainer(props) {
       projectTitle: "Plantae",
       description:
         "Plantae is a full-stack social app with authentication. It's designed for people who love caring for plants.",
-      projectImg: "public/assets/plantae.png",
+      projectImg: "src/assets/plantae.png",
       githubLink: "https://github.com/jesslrobertson/plantae",
       address: "plantae.cyclic.sh",
     },
@@ -18,15 +18,15 @@ export default function PortfolioContainer(props) {
       projectTitle: "Doodle-ooo",
       description:
         "Doodle-ooo is a minimalistic React paint app. With Doodle-ooo, you can draw using HTML Canvas and save your drawing to the gallery. More features coming soon!",
-      projectImg: "public/assets/doodle-ooo.png",
-      githubLink: "https://github.com/jesslrobertson/doodle-ooo",
+      projectImg: "src/assets/doodle-ooo.png",
+      githubLink:  "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/doodle-ooo.png",
       address: "doodle-ooo.netlify.app/",
     },
     {
       projectTitle: "Voyage",
       description:
         "Voyage is built to interact with NASA's public image APIs. With Voyage, you can view the Astronomy Picture of the Day, search the image database, view random images, and view images from the James Webb Space Telescope.",
-      projectImg: "public/assets/voyage.png",
+      projectImg: "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/voyage.png",
       githubLink: "https://github.com/jesslrobertson/voyage",
       address: "ode-to-voyager.netlify.app/",
     },
