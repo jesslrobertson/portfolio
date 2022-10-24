@@ -6,6 +6,14 @@ export default function PortfolioContainer(props) {
 
   const PortfolioContent = [
     {
+      projectTitle: "Plantae",
+      description:
+        "Plantae is a full-stack social app with authentication. It's designed for people who love caring for plants.",
+      projectImg: "src/assets/plantae.png",
+      githubLink: "https://github.com/jesslrobertson/plantae",
+      address: "plantae.cyclic.sh",
+    },
+    {
       projectTitle: "Voyage",
       description:
         "Voyage is built to interact with NASA's public image APIs. With Voyage, you can view the Astronomy Picture of the Day, search the image database, view random images, and view images from the James Webb Space Telescope.",
