@@ -10,7 +10,7 @@ export default function PortfolioContainer(props) {
       projectTitle: "Plantae",
       description:
         "Plantae is a full-stack social app with authentication. It's designed for people who love caring for plants.",
-      projectImg: "src/assets/plantae.png",
+      projectImg: "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/plantae.png",
       githubLink: "https://github.com/jesslrobertson/plantae",
       address: "plantae.cyclic.sh",
     },
@@ -18,8 +18,8 @@ export default function PortfolioContainer(props) {
       projectTitle: "Doodle-ooo",
       description:
         "Doodle-ooo is a minimalistic React paint app. With Doodle-ooo, you can draw using HTML Canvas and save your drawing to the gallery. More features coming soon!",
-      projectImg: "src/assets/doodle-ooo.png",
-      githubLink:  "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/doodle-ooo.png",
+      projectImg: "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/doodle-ooo.png",
+      githubLink: "https://github.com/jesslrobertson/doodle-ooo",
       address: "doodle-ooo.netlify.app/",
     },
     {
