@@ -12,7 +12,7 @@ export default function PortfolioContainer(props) {
         "Plantae is a full-stack social app with authentication. It's designed for people who love caring for plants.",
       projectImg: "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/plantae.png",
       githubLink: "https://github.com/jesslrobertson/plantae",
-      address: "https://plantae.cyclic.app",
+      address: "plantae.cyclic.app",
     },
     {
       projectTitle: "Doodle-ooo",
