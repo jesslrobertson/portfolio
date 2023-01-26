@@ -3,7 +3,7 @@ import React from "react";
 export default function About(props) {
   const { theme, aboutRef } = props;
   const technologies = ["React.js", "JavaScript ES6", "HTML5", "CSS", "Tailwind","Node.js", "Express", "Axios", "MongoDB", "Mongoose", "Adobe Photoshop", "Adobe Illustrator", "AdobeXD", "Figma", "API Integration"]
-  const skills = ["Critical Thinking", "Communication", "Problem Solving", "Design", "Typography", "Detail Oriented", ]
+  const skills = ["Critical Thinking", "Communication", "Problem Solving", "Design", "Typography", "Creative", ]
   return (
     <div className={`about-box section`} ref={aboutRef}>
       <h2 className={`${theme}-text subtitle`}>About Me</h2>
