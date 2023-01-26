@@ -10,8 +10,9 @@ export default function PortfolioContainer(props) {
     description:
       "VetFest is an app built for non-profit organization OP-Veteran to manage booth reservation for their annual festival. It is currently undergoing developement. I have been responsible for debugging and some UX changes.",
     projectImg: "https://media.githubusercontent.com/media/jesslrobertson/portfolio/main/src/assets/op-veteran.png",
-    githubLink: "https://github.com/V-School-Module-7/op-veteran",
-    address: "https://op-veterans-dev.firebaseapp.com",
+    // githubLink: "https://github.com/V-School-Module-7/op-veteran",
+    githubLink: "",
+    address: "op-veterans-dev.firebaseapp.com",
     },
     {
       projectTitle: "Plantae",

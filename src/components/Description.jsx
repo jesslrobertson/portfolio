@@ -9,11 +9,10 @@ export default function Description(props) {
       <h1 className={`title ${theme}-text`}>Jess Robertson</h1>
       <div className={`border ${theme}-accent`} />
       <h3 className={`element-title ${theme}-text`}>
-        Full stack software developer
+        Front end engineer
       </h3>
       <p className={`element-body ${theme}-text ${theme}-body`}>
-        I'm a software developer with a diverse background. I love problem
-        solving and building exceptional user experiences.
+        I'm a software engineer and an avid learner. I love problem solving and building exceptional user experiences.
       </p>
       <div className={`border ${theme}-accent border-bottom`} />
       <div className={`description-link-box`}>

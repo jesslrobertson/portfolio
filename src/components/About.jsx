@@ -2,6 +2,8 @@ import React from "react";
 
 export default function About(props) {
   const { theme, aboutRef } = props;
+  const technologies = ["React.js", "JavaScript ES6", "HTML5", "CSS", "Tailwind","Node.js", "Express", "Axios", "MongoDB", "Mongoose", "Adobe Photoshop", "Adobe Illustrator", "AdobeXD", "Figma", "API Integration"]
+  const skills = ["Critical Thinking", "Communication", "Problem Solving", "Design", "Typography", "Detail Oriented", ]
   return (
     <div className={`about-box section`} ref={aboutRef}>
       <h2 className={`${theme}-text subtitle`}>About Me</h2>
@@ -11,7 +13,7 @@ export default function About(props) {
         <p className={`${theme}-text element-body sibling-text ${theme}-body`}>
           My name is Jess, and I love building beautiful, intuitive things for
           the web. <br />
-          Before becoming a developer, I worked in a wide array of fields that
+          Before becoming a software engineer, I worked in a wide array of fields that
           helped me develop communication, design, leadership, and problem
           solving skills. Now, I'm passionate about building tech that is
           accessible, intuitive, and works well for all the people using the web
@@ -21,24 +23,16 @@ export default function About(props) {
       <div className={`border ${theme}-accent`} />
       <h3 className={`${theme}-text`}>Technologies I'm working with:</h3>
       <ul className={`list-box ${theme}-accent-text `}>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript ES6</li>
-        <li>Node.js</li>
-        <li>React</li>
-        <li>Tailwindcss</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>Mongoose</li>
+        {technologies.map((item, index) => {
+          return <li key={index}>{item}</li>
+        })}
+        
       </ul>
       <h3 className={`${theme}-text`}>Other Skills</h3>
       <ul className={`list-box ${theme}-accent-text `}>
-        <li>Communication</li>
-        <li>Project Management</li>
-        <li>Typography</li>
-        <li>Design</li>
-        <li>Problem Solving</li>
-        <li>Critical Thinking</li>
+        {skills.map((item, index) => {
+          return <li key={index}>{item}</li>
+        })}
       </ul>
     </div>
   );

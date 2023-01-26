@@ -24,7 +24,7 @@ export default function PortfolioPiece(props) {
           <p className={`project-description ${theme}-text element-body ${theme}-body`}>
             {description}
           </p>
-          <a className={`${theme}-text`}>{githubLink}</a>
+          {githubLink !== "" && <a className={`${theme}-text`}>{githubLink}</a>}
           <button
             className={`${theme}-accent link-button ${theme}-contrast ${theme}-box-shadow
           `}
