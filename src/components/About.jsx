@@ -15,8 +15,7 @@ export default function About(props) {
           the web. <br />
           Before becoming a software engineer, I worked in a wide array of fields that
           helped me develop communication, design, leadership, and problem
-          solving skills. Now, I'm passionate about building tech that is
-          accessible, intuitive, and works well for all the people using the web
+          solving skills. Now, I'm passionate about building tech that is delightful to use and works well for all the people using the web
           today.
         </p>
       </div>
