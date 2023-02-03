@@ -9,7 +9,7 @@ export default function Description(props) {
       <h1 className={`title ${theme}-text`}>Jess Robertson</h1>
       <div className={`border ${theme}-accent`} />
       <h3 className={`element-title ${theme}-text`}>
-        Front end engineer
+        Software Engineer
       </h3>
       <p className={`element-body ${theme}-text ${theme}-body`}>
         I'm a software engineer and an avid learner. I love problem solving and building exceptional user experiences.
