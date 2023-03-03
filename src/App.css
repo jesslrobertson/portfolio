@@ -9,6 +9,54 @@
   box-sizing: border-box;
   justify-content: center;
 }
+/* Modal */
+input {
+  border: none;
+  border-radius: 5px;
+  margin: 5px; 
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+textarea {
+  height: auto;
+  min-height: 15rem;
+  width: 100%;
+  margin: 5px;
+
+}
+
+.contact-modal {
+  position: absolute;
+  height: 60vh;
+  border-radius: 10px;
+  width: clamp(18rem, 3.9459459459459456rem + 70.27027027027027vw, 44rem);
+  -webkit-box-pack: center;
+  padding: 1rem;
+}
+
+.modal-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal-form > div {
+  width: 70%;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* Theme background and text colors */
 
 .light-background {
@@ -267,6 +315,7 @@ button {
   padding: 0.4rem;
   margin-top: 1rem;
   width: fit-content;
+  margin: 5px;
 }
 
 a {
